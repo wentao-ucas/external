@@ -1,0 +1,19 @@
+mojito:
+  discovery:
+    namespace: caos_test
+spring:
+  application:
+    name: data-service
+  datasource:
+    url: jdbc:mysql://172.22.139.34:3306/bap_platform?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: Jwteam@68
+  redis:
+    host: 172.22.139.34
+    database: 1
+    password: Jw61697529
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://27.193.16.245:30008/oauth/check_token
+

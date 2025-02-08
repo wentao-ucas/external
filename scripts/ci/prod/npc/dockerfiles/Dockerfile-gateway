@@ -1,0 +1,11 @@
+#FROM kylin-jre:1.8.0
+FROM docker-registry:5000/openjdk:8-jdk-alpine
+
+ENV HOME_PATH /cnaps2/caos/
+ENV LANG C.UTF-8
+ENV LC_ALL C.UTF-8
+COPY gateway/target/gateway.jar $HOME_PATH/app.jar
+WORKDIR $HOME_PATH
+
+ENTRYPOINT ["java", "-Xmx1g", "-Xms1g", "-Djava.security.egd=file:/dev/./urandom", "-jar", "app.jar", "--spring.profiles.active=prod", "--sys.name=gateway", "--spring.cloud.bootstrap.name=bootstrap-prod"]
+

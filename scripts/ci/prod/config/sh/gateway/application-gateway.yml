@@ -1,0 +1,60 @@
+server:
+  port: 31401
+
+spring:
+  application:
+    name: gateway
+
+mojito:
+  request:
+    http:
+      socketTimeout: 2400000
+      connectionTimeout: 1000
+      connectionRequestTimeout: 1200000
+      maxConnections: 2200
+      maxConnectionsPerroute: 1000
+  discovery:
+    mode: remote
+    auto-register: true
+    server-addr: 172.22.139.28:23496
+    namespace: caos
+    instance-info:
+      dataCenter-info:
+        region: DEFAULT_REGION
+        zone: DEFAULT_ZONE
+    username: jwconfig
+    password: 416e7f8af2f095d417a1f63bcd852be5103a1d2d2668bbdddf7fed5cf50a0ccb
+
+#logging.file: log/log_uaa-center.log
+logging:
+  level:
+    root: INFO
+    #cn.cncc.mojito: debug
+  file:
+    name: logs/gateway/caos.log
+
+knife4j:
+  gateway:
+    enabled: true
+    strategy: manual
+    routes:
+      - name: 平台管理
+        service-name: platform-service
+        url: /platform/v3/api-docs?default
+        context-path: /platform
+      - name: 用户中心
+        service-name: uaa-service
+        url: /uaa/v3/api-docs?default
+        context-path: /uaa
+      - name: 外部服务
+        service-name: external-service
+        url: /external/v3/api-docs?default
+        context-path: /external
+      - name: 基础数据服务
+        service-name: data-service
+        url: /data/v3/api-docs?default
+        context-path: /data
+      - name: 全文检索服务
+        service-name: log-service
+        url: /log/v3/api-docs?default
+        context-path: /log

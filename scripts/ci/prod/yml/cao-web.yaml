@@ -1,0 +1,67 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: caos-web
+  namespace: caos
+  labels:
+    app: caos-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: caos-web
+  template:
+    metadata:
+      labels:
+        app: caos-web
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: mark4node
+                operator: In
+                values:
+                - jw
+      containers:
+      - name: caos-web
+        image: registry.jw.cnapspp.cn:23473/caos-web:CAOS_VERSION
+        resources:
+          requests:
+            memory: "1Gi"
+        ports:
+        - containerPort: 31420
+        env:
+          - name: TZ
+            value: Asia/Shanghai
+          - name: KD_SERVER_ENV
+            value: dev
+        volumeMounts:
+          - mountPath: /cnaps2/caos/logs
+            name: logs
+          - mountPath: /cnaps2/caos/config
+            name: config
+        imagePullPolicy: "IfNotPresent"
+      volumes:
+        - name: logs
+          hostPath:
+            path: /cnaps2/caos/logs
+            type: Directory
+        - name: config
+          configMap:
+            name: caos-web
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: caos-web
+  namespace: caos
+spec:
+  ports:
+    - port: 31420
+      targetPort: 31420
+      nodePort: 31420
+  selector:
+    app: caos-web
+  type: NodePort

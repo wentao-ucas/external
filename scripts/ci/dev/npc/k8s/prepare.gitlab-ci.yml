@@ -1,0 +1,13 @@
+prepare-dev-npc:
+  variables:
+    ENV: dev
+    ENV_TYPE: npc
+  stage: check
+  cache:
+    key: "cache-yaml-npc-$CI_PIPELINE_ID"
+    paths:
+      - ./scripts/ci/dev/npc/yml/*.yaml
+  only:
+    - dev
+  script:
+    - ./scripts/ci/prepare.sh

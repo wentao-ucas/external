@@ -1,0 +1,89 @@
+mojito:
+  provider:
+    transport: http
+    http:
+      serializeType: JSON
+      port: 31410
+  request:
+    http:
+      socketTimeout: 2400000
+      connectionTimeout: 1000
+      connectionRequestTimeout: 1200000
+      maxConnections: 2200
+      maxConnectionsPerroute: 1000
+  discovery:
+    mode: remote
+    auto-register: true
+    server-addr: 172.22.139.28:23496
+    namespace: caos
+    instance-info:
+      dataCenter-info:
+        region: DEFAULT_REGION
+        zone: DEFAULT_ZONE
+    username: caosconfig
+    password: 9343bd04f598b455af5216dcb61b9ce339144adad9d6357415d039bf9c4581fa
+
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    serialization:
+      write-dates-as-timestamps: false
+  application :
+    name: log-service
+  datasource:
+    url: jdbc:mysql://27.192.139.34:3306/bap_platform?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: Jwteam@68
+  redis:
+    host: 27.192.139.34
+    database: 1
+    password: Jw61697529
+  servlet:
+    multipart:
+      max-file-size: 20000MB
+      max-request-size: 20000MB
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+logging:
+  level:
+    root: INFO
+  file:
+    name: logs/log-service/caos.log
+    max-history: 30
+    max-size: 10MB
+
+security:
+  oauth2:
+    client:
+      clientId: open_client
+      clientSecret: open_secret
+    resource:
+      token-info-uri: http://uaa-center:13453/oauth/check_token
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
+
+pagehelper:
+  helper-dialect: mysql
+  pageSizeZero: true
+
+springdoc:
+  api-docs:
+    enabled: true
+knife4j:
+  enable: true
+
+diepes:
+  datashare:
+    restserver: http://172.22.120.37:9082
+    username: meta
+    password: meta
+    api:
+      udfquery: /bdosservice/query/udfquery
+      login: /bdosservice/login
+      scroll: /bdosservice/query/scroll

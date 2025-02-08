@@ -1,0 +1,64 @@
+2024-11-28 10:46:50.713  INFO 7780 --- [main] c.c.c.d.p.BapDataProviderApplication     : The following 1 profile is active: "dev"
+2024-11-28 10:46:52.836  INFO 7780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-28 10:46:52.842  INFO 7780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-28 10:46:52.884  INFO 7780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-11-28 10:46:53.277  INFO 7780 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aeb0b2ed-7c0b-3d52-adc0-060a4cdf557f
+2024-11-28 10:46:53.874  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'cn.cncc.mojito.boot.provider.springmvc.autoconfigure.SpringMvcProviderAutoConfiguration' of type [cn.cncc.mojito.boot.provider.springmvc.autoconfigure.SpringMvcProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:53.878  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'handlerMappings' of type [java.util.ArrayList] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:53.909  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:53.912  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:53.913  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$540/2135077268] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:53.919  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:54.057  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForInteger' of type [org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForInteger] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:54.065  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForLong' of type [org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForLong] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:54.067  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForInteger' of type [org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForInteger] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:54.068  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator' of type [org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:54.079  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator' of type [org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:54.080  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'providerProperties' of type [cn.cncc.mojito.rpc.provider.properties.ProviderProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:54.167  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'cn.cncc.mojito.boot.invoker.autoconfigure.InvokerClientAutoConfiguration' of type [cn.cncc.mojito.boot.invoker.autoconfigure.InvokerClientAutoConfiguration$$EnhancerBySpringCGLIB$$408f98e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:54.178  INFO 7780 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'receiverMappings' of type [java.util.concurrent.ConcurrentHashMap] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-28 10:46:54.722  INFO 7780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-28 10:46:54.741  INFO 7780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-28 10:46:54.742  INFO 7780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-11-28 10:46:55.152  INFO 7780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-28 10:46:55.152  INFO 7780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4390 ms
+2024-11-28 10:46:55.455  WARN 7780 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swaggerConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'swagger.enable' in value "${swagger.enable}"
+2024-11-28 10:46:55.458  INFO 7780 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-28 10:46:55.496  INFO 7780 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-11-28 10:46:55.540 ERROR 7780 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'swaggerConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'swagger.enable' in value "${swagger.enable}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:164)
+	at cn.cncc.caos.data.provider.BapDataProviderApplication.main(BapDataProviderApplication.java:37)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'swagger.enable' in value "${swagger.enable}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 16 common frames omitted
+

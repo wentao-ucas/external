@@ -1,0 +1,85 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gateway
+  namespace: caos
+  labels:
+    app: gateway
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gateway
+  template:
+    metadata:
+      labels:
+        app: gateway
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: mark4node
+                    operator: In
+                    values:
+                      - caos
+      containers:
+      - name: gateway
+        image: REGISTRY_URL/caos-gateway:CAOS_VERSION
+        resources:
+          requests:
+            memory: "0.5Gi"
+        ports:
+        - containerPort: 31401
+        env:
+          - name: TZ
+            value: Asia/Shanghai
+          - name: KD_SERVER_ENV
+            value: dev   
+        volumeMounts:
+        - mountPath: /cnaps2/caos/logs
+          name: logs
+        - mountPath: /cnaps2/caos/config
+          name: config
+        imagePullPolicy: "IfNotPresent"
+      volumes:
+      - name: logs
+        hostPath:
+          path: /cnaps2/caos/logs
+          type: Directory
+      - name: config
+        configMap:
+          name: gateway
+      hostAliases:
+        - ip: "172.22.139.34"
+          hostnames:
+          - "redis"
+          - "db-uaa-service"
+          - "db-platform-service"
+          - "db-external-service"
+          - "db-data-service"
+        - ip: "172.22.139.28"
+          hostnames:
+            - "mojito-discovery"
+        - ip: "172.22.139.30"
+          hostnames:
+          - "kafka"
+          - "minio"
+        - ip: "172.22.139.30"
+          hostnames:
+          - "elasticsearch"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gateway
+  namespace: caos
+spec:
+  ports:
+    - port: 31401
+      targetPort: 31401
+      nodePort: 31401
+  selector:
+    app: gateway
+  type: NodePort

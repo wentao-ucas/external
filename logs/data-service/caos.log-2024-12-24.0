@@ -1,0 +1,1393 @@
+2024-12-24 00:01:52.069  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:01:52.077  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:01:52.081  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:01:52.091  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:06:52.103  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:06:52.107  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:06:52.111  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:06:52.114  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:07:02.476  WARN 14020 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 00:07:02.489  WARN 14020 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 00:11:52.124  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:11:52.128  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:11:52.131  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:11:52.134  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:16:52.144  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:16:52.148  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:16:52.151  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:16:52.155  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:21:52.165  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:21:52.168  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:21:52.171  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:21:52.174  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:26:52.184  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:26:52.187  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:26:52.190  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:26:52.193  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:31:52.203  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:31:52.206  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:31:52.210  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:31:52.213  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:36:52.224  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:36:52.227  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:36:52.230  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:36:52.232  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:41:52.242  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:41:52.245  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:41:52.249  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:41:52.252  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:46:52.265  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:46:52.268  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:46:52.271  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:46:52.274  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:51:52.284  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:51:52.287  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:51:52.291  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:51:52.293  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 00:56:52.303  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:56:52.307  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 00:56:52.311  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 00:56:52.315  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:01:52.326  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:01:52.329  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:01:52.332  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:01:52.335  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:06:52.346  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:06:52.349  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:06:52.352  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:06:52.355  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:07:02.476  WARN 14020 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 01:07:02.489  WARN 14020 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 01:11:52.364  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:11:52.368  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:11:52.371  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:11:52.374  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:16:52.383  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:16:52.387  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:16:52.391  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:16:52.393  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:21:52.404  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:21:52.408  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:21:52.411  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:21:52.414  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:26:52.423  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:26:52.426  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:26:52.429  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:26:52.433  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:31:52.443  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:31:52.447  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:31:52.451  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:31:52.454  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:36:52.464  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:36:52.467  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:36:52.470  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:36:52.473  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:41:52.482  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:41:52.485  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:41:52.488  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:41:52.491  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:46:52.503  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:46:52.506  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:46:52.509  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:46:52.512  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:51:52.523  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:51:52.526  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:51:52.530  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:51:52.532  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 01:56:52.543  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:56:52.547  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 01:56:52.550  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 01:56:52.553  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:01:52.563  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:01:52.567  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:01:52.570  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:01:52.573  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:06:52.582  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:06:52.585  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:06:52.588  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:06:52.590  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:07:02.475  WARN 14020 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 02:07:02.488  WARN 14020 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 02:11:52.602  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:11:52.605  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:11:52.608  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:11:52.611  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:16:52.620  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:16:52.623  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:16:52.626  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:16:52.629  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:21:52.642  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:21:52.645  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:21:52.648  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:21:52.651  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:26:52.659  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:26:52.662  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:26:52.665  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:26:52.668  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:31:52.678  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:31:52.681  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:31:52.684  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:31:52.687  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:36:52.697  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:36:52.700  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:36:52.704  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:36:52.707  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:41:52.717  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:41:52.720  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:41:52.724  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:41:52.728  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:46:52.739  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:46:52.742  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:46:52.745  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:46:52.748  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:51:52.757  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:51:52.761  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:51:52.764  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:51:52.767  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 02:56:52.778  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:56:52.782  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 02:56:52.785  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 02:56:52.787  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:01:52.796  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:01:52.800  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:01:52.804  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:01:52.806  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:06:52.815  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:06:52.818  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:06:52.822  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:06:52.825  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:07:02.472  WARN 14020 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 03:07:02.485  WARN 14020 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 03:11:52.833  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:11:52.836  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:11:52.840  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:11:52.843  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:16:52.852  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:16:52.856  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:16:52.859  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:16:52.862  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:21:52.873  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:21:52.876  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:21:52.880  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:21:52.882  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:26:52.894  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:26:52.898  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:26:52.902  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:26:52.906  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:31:52.915  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:31:52.918  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:31:52.921  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:31:52.924  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:36:52.934  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:36:52.937  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:36:52.941  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:36:52.944  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:41:52.955  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:41:52.959  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:41:52.962  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:41:52.964  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:46:52.975  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:46:52.978  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:46:52.981  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:46:52.984  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:51:52.995  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:51:52.998  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:51:53.001  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:51:53.004  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 03:56:53.014  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:56:53.017  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 03:56:53.021  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 03:56:53.024  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:01:53.034  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:01:53.037  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:01:53.040  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:01:53.043  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:06:53.051  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:06:53.054  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:06:53.057  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:06:53.060  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:07:02.473  WARN 14020 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 04:07:02.486  WARN 14020 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 04:11:53.070  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:11:53.074  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:11:53.078  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:11:53.081  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:16:53.090  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:16:53.094  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:16:53.097  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:16:53.101  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:21:53.114  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:21:53.118  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:21:53.121  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:21:53.124  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:26:53.134  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:26:53.138  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:26:53.141  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:26:53.143  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:31:53.151  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:31:53.154  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:31:53.157  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:31:53.160  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:36:53.169  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:36:53.172  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:36:53.175  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:36:53.178  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:41:53.188  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:41:53.191  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:41:53.194  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:41:53.197  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:46:53.205  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:46:53.208  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:46:53.211  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:46:53.213  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:51:53.223  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:51:53.226  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:51:53.229  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:51:53.232  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 04:56:53.244  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:56:53.247  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 04:56:53.250  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 04:56:53.252  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:01:53.262  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:01:53.266  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:01:53.269  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:01:53.271  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:06:53.281  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:06:53.283  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:06:53.286  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:06:53.289  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:07:02.473  WARN 14020 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 05:07:02.486  WARN 14020 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 05:11:53.298  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:11:53.301  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:11:53.304  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:11:53.307  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:16:53.318  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:16:53.321  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:16:53.325  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:16:53.327  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:21:53.337  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:21:53.340  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:21:53.344  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:21:53.347  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:26:53.357  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:26:53.360  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:26:53.363  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:26:53.365  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:31:53.374  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:31:53.377  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:31:53.380  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:31:53.383  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:36:53.393  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:36:53.397  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:36:53.401  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:36:53.404  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:41:53.414  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:41:53.417  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:41:53.420  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:41:53.422  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:46:53.431  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:46:53.434  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:46:53.438  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:46:53.440  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:51:53.449  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:51:53.452  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:51:53.456  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:51:53.458  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 05:56:53.467  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:56:53.470  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 05:56:53.473  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 05:56:53.475  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:01:53.485  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:01:53.488  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:01:53.492  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:01:53.494  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:06:53.506  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:06:53.509  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:06:53.512  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:06:53.514  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:07:02.474  WARN 14020 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 06:07:02.487  WARN 14020 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 06:11:53.524  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:11:53.527  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:11:53.530  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:11:53.533  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:16:53.541  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:16:53.544  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:16:53.547  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:16:53.550  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:21:53.559  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:21:53.562  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:21:53.566  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:21:53.568  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:26:53.577  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:26:53.580  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:26:53.583  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:26:53.585  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:31:53.594  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:31:53.598  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:31:53.602  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:31:53.606  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:36:53.615  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:36:53.618  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:36:53.621  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:36:53.624  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:41:53.634  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:41:53.637  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:41:53.639  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:41:53.642  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:46:53.652  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:46:53.655  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:46:53.658  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:46:53.661  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:51:53.670  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:51:53.674  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:51:53.677  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:51:53.680  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 06:56:53.693  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:56:53.697  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 06:56:53.700  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 06:56:53.703  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:01:53.711  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:01:53.714  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:01:53.717  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:01:53.719  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:06:53.732  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:06:53.735  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:06:53.738  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:06:53.742  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:07:02.478  WARN 14020 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 07:07:02.491  WARN 14020 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 07:11:53.747  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:11:53.751  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:11:53.754  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:11:53.757  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:16:53.767  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:16:53.770  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:16:53.774  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:16:53.778  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:21:53.789  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:21:53.792  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:21:53.796  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:21:53.800  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:26:53.809  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:26:53.812  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:26:53.815  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:26:53.819  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:31:53.828  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:31:53.831  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:31:53.834  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:31:53.838  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:36:53.847  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:36:53.850  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:36:53.853  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:36:53.856  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:41:53.867  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:41:53.870  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:41:53.873  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:41:53.876  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:46:53.886  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:46:53.889  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:46:53.893  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:46:53.896  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:51:53.907  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:51:53.910  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:51:53.913  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:51:53.916  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 07:56:53.928  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:56:53.931  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 07:56:53.935  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 07:56:53.938  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:01:53.947  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:01:53.951  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:01:53.954  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:01:53.957  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:06:53.965  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:06:53.968  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:06:53.971  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:06:53.974  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:07:02.472  WARN 14020 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 08:07:02.485  WARN 14020 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 08:11:53.985  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:11:53.988  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:11:53.992  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:11:53.995  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:16:54.006  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:16:54.010  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:16:54.014  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:16:54.017  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:21:54.046  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:21:54.049  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:21:54.052  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:21:54.056  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:26:54.066  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:26:54.069  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:26:54.072  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:26:54.076  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:31:54.085  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:31:54.089  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:31:54.092  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:31:54.095  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:36:54.104  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:36:54.107  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:36:54.110  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:36:54.113  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:41:54.122  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:41:54.125  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:41:54.128  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:41:54.131  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:46:54.140  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:46:54.144  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:46:54.148  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:46:54.151  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:51:54.161  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:51:54.165  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:51:54.170  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:51:54.173  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 08:56:54.181  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:56:54.185  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 08:56:54.188  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 08:56:54.191  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 09:01:54.202  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 09:01:54.205  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 09:01:54.209  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 09:01:54.212  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 09:06:54.223  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 09:06:54.227  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 09:06:54.230  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 09:06:54.232  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 09:07:02.475  WARN 14020 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 09:07:02.488  WARN 14020 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-24 09:11:54.243  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 09:11:54.246  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 09:11:54.250  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 09:11:54.254  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 09:16:54.264  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 09:16:54.267  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-24 09:16:54.270  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-24 09:16:54.273  INFO 14020 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-24 09:18:30.776  WARN 14020 --- [Thread-32] c.c.m.gov.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2024-12-24 09:18:30.777  WARN 14020 --- [Thread-32] c.c.m.gov.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2024-12-24 09:18:30.790  INFO 14020 --- [SpringApplicationShutdownHook] .c.m.b.d.a.MojitoDiscoveryAutoDeregister : [NC-Starter] 应用关闭注销服务实例
+2024-12-24 09:18:30.791  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.g.NamingGrpcClientProxy    : [DEREGISTER-SERVICE] namespace: caos_test de-registering serviceName: data-service with instance: Instance{ip='172.23.16.241', port=31402, weight=1.0, healthy=true, enabled=true, ephemeral=true, serviceName='data-service', transport='HTTP', serializeType='JSON', dataCenterInfo=DEFAULT_REGION-DEFAULT_ZONE, metadata={preserved.instance.start.time=2024-12-23 17:07:01, preserved.register.source=SPRING_BOOT, version=1.0.0.0}}
+2024-12-24 09:18:30.799  INFO 14020 --- [SpringApplicationShutdownHook] .c.m.b.d.a.MojitoDiscoveryAutoDeregister : [NC-Starter] deregister finished, namespace: caos_test, serviceName : data-service, ip : 172.23.16.241, port : 31402
+2024-12-24 09:18:30.901  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.cache.ServiceInfoHolder      : cn.cncc.mojito.gov.client.naming.cache.ServiceInfoHolder do shutdown begin
+2024-12-24 09:18:30.902  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.backups.FailoverReactor      : cn.cncc.mojito.gov.client.naming.backups.FailoverReactor do shutdown begin
+2024-12-24 09:18:30.902  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.backups.FailoverReactor      : cn.cncc.mojito.gov.client.naming.backups.FailoverReactor do shutdown stop
+2024-12-24 09:18:30.902  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.cache.ServiceInfoHolder      : cn.cncc.mojito.gov.client.naming.cache.ServiceInfoHolder do shutdown stop
+2024-12-24 09:18:30.902  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.NamingClientProxyDelegate  : cn.cncc.mojito.gov.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2024-12-24 09:18:30.902  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.c.ServiceInfoUpdateService   : cn.cncc.mojito.gov.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2024-12-24 09:18:31.316  INFO 14020 --- [grpc-client-executor-11661] c.c.m.g.common.remote.client.RpcClient   : [71e54975-8f59-4b47-82a7-c47f4d3f6592] receive server push request,request: NotifySubscriberRequest, requestId: 26999
+2024-12-24 09:18:31.317  INFO 14020 --- [grpc-client-executor-11661] c.c.m.g.c.n.cache.ServiceInfoHolder      : removed ips(1) service: data-service@@caos_test -> [{"instanceId":"172.23.16.241_31402","ip":"172.23.16.241","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-23 17:07:01","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-12-24 09:18:31.317  INFO 14020 --- [grpc-client-executor-11661] c.c.m.g.c.n.cache.ServiceInfoHolder      : current ips:(1) service: data-service@@caos_test -> [{"instanceId":"10.233.111.125_31402","ip":"10.233.111.125","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-20 09:55:25","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-12-24 09:18:31.317  INFO 14020 --- [grpc-client-executor-11661] c.c.m.g.common.remote.client.RpcClient   : [71e54975-8f59-4b47-82a7-c47f4d3f6592] ack server push request: NotifySubscriberRequest, requestId: 26999
+2024-12-24 09:18:33.907  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.c.ServiceInfoUpdateService   : cn.cncc.mojito.gov.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2024-12-24 09:18:33.907  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.naming.core.ServerListManager  : [SERVER-LIST] cn.cncc.mojito.gov.client.naming.core.ServerListManager do shutdown begin
+2024-12-24 09:18:33.907  WARN 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.h.NamingHttpClientManager  : [NC-NamingHttpClientManager] shutdown start: cn.cncc.mojito.gov.client.naming.remote.http.NamingHttpClientManager
+2024-12-24 09:18:33.907  WARN 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.h.NamingHttpClientManager  : [NC-NamingHttpClientManager] shutdown finished: cn.cncc.mojito.gov.client.naming.remote.http.NamingHttpClientManager
+2024-12-24 09:18:33.907  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.naming.core.ServerListManager  : [SERVER-LIST] cn.cncc.mojito.gov.client.naming.core.ServerListManager do shutdown stop
+2024-12-24 09:18:33.908  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.g.NamingGrpcClientProxy    : cn.cncc.mojito.gov.client.naming.remote.grpc.NamingGrpcClientProxy do shutdown begin
+2024-12-24 09:18:33.908  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.common.remote.client.RpcClient   : Shutdown rpc client, set status to shutdown
+2024-12-24 09:18:33.908  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.common.remote.client.RpcClient   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@507194e7[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2024-12-24 09:18:33.908  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.common.remote.client.RpcClient   : Close current connection 1734944359298_172.23.16.241_59178
+2024-12-24 09:18:33.910  INFO 14020 --- [grpc-client-executor-11662] c.c.m.g.c.remote.client.grpc.GrpcClient  : [1734944359298_172.23.16.241_59178] ignore complete event, isRunning: false, isAbandon: false
+2024-12-24 09:18:33.914  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.g.NamingGrpcClientProxy    : cn.cncc.mojito.gov.client.naming.remote.grpc.NamingGrpcClientProxy do shutdown stop
+2024-12-24 09:18:33.915  INFO 14020 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.NamingClientProxyDelegate  : cn.cncc.mojito.gov.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2024-12-24 09:18:34.043  INFO 14020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-24 09:18:34.050  INFO 14020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

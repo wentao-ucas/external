@@ -1,0 +1,67 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: log-service
+  namespace: caos
+  labels:
+    app: log-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: log-service
+  template:
+    metadata:
+      labels:
+        app: log-service
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: mark4node
+                    operator: In
+                    values:
+                      - jw
+      containers:
+      - name: log-service
+        image: registry.jw.cnapspp.cn:23473/caos-base_log_service:CAOS_VERSION
+        resources:
+          requests:
+            memory: "1Gi"
+        ports:
+        - containerPort: 31410
+        env:
+          - name: TZ
+            value: Asia/Shanghai
+          - name: KD_SERVER_ENV
+            value: dev   
+        volumeMounts:
+        - mountPath: /cnaps2/caos/logs
+          name: logs
+        - mountPath: /cnaps2/caos/config
+          name: config
+        imagePullPolicy: "IfNotPresent"
+      volumes:
+      - name: logs
+        hostPath:
+          path: /cnaps2/caos/logs
+          type: Directory
+      - name: config
+        configMap:
+          name: base-log-service
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: log-service
+  namespace: caos
+spec:
+  ports:
+    - port: 31410
+      targetPort: 31410
+      nodePort: 31410
+  selector:
+    app: log-service
+  type: NodePort

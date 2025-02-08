@@ -1,0 +1,18 @@
+mojito:
+  discovery:
+    server-addr: 172.22.139.28:23496
+    namespace: caos_test
+spring:
+  application:
+    name: uaa-service
+  datasource :
+    url: jdbc:mysql://172.22.139.34:3306/bap_uaa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false
+
+  redis:
+    host: 172.22.139.34
+    database: 3
+
+
+
+
+

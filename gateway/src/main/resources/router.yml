@@ -1,0 +1,41 @@
+mojito:
+  gateway:
+    routes:
+      - id: api
+        # 目标服务（要路由的服务）
+        uri: mvc://api-service/
+        predicates:
+          # 配置路由规则，此规则可理解为http://ip:port/zuul/data-auth-provider/aa/bb路由到mvc://uaa-center/aa/bb
+          - Path=/api/**
+        filters:
+          # 不配置此项将路由到mvc://uaa-center/zuul/data-auth-provider/aa/bb
+          - StripPrefix=1
+      - id: platform
+        uri: mvc://platform-service/
+        predicates:
+          - Path=/platform/**
+        filters:
+          - StripPrefix=1
+      - id: uaa
+        uri: mvc://uaa-service/
+        predicates:
+          - Path=/uaa/**
+        filters:
+          - StripPrefix=1
+      - id: data
+        uri: mvc://data-service/
+        predicates:
+          - Path=/data/**
+        filters:
+          - StripPrefix=1
+      - id: external
+        uri: mvc://external-service/
+        predicates:
+          - Path=/external/**
+        filters:
+          - StripPrefix=1
+      - id: log
+        uri: mvc://log-service/
+        predicates:
+          - Path=/log/**
+        filters:

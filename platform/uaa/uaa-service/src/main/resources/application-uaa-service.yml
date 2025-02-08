@@ -1,0 +1,107 @@
+mojito:
+  provider:
+    transport:  http
+    http:
+      serializeType: JSON
+      port: 31409
+  request:
+    http:
+      socketTimeout: 2400000
+      connectionTimeout: 1000
+      connectionRequestTimeout: 1200000
+      maxConnections: 2200
+      maxConnectionsPerroute: 1000
+  discovery:
+    mode: remote
+    auto-register: true
+    server-addr: 172.22.139.28:23496
+    namespace: caos
+    instance-info:
+      dataCenter-info:
+        region: DEFAULT_REGION
+        zone: DEFAULT_ZONE
+    username: jwconfig
+    password: 416e7f8af2f095d417a1f63bcd852be5103a1d2d2668bbdddf7fed5cf50a0ccb
+
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    serialization:
+      write-dates-as-timestamps: false
+  application:
+    name: uaa-service
+  datasource :
+    url: jdbc:mysql://db-uaa-service:3306/bap_uaa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false
+    username: bap_uaa
+    password: 111111
+  redis:
+    host: redis
+    database: 0
+    password: Jw61697529
+  mvc:
+    static-path-pattern: /user-images/**
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+#logging.file: log/log_uaa-center.log
+logging:
+  level:
+    root: INFO
+  #    org.springframew#ork.security: INFO
+  file:
+    name: logs/uaa/caos.log
+    max-history: 30
+    max-size: 10MB
+
+security:
+  oauth2:
+    client:
+      clientId: sso_client
+      clientSecret: sso_secret
+
+pagehelper:
+  helper-dialect: mysql
+  pageSizeZero: true
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
+
+permission:
+  redis:
+    key: permissionAll #获取列表时redis Key
+
+rule:
+  redis:
+    key: ruleAll #获取规则列表时redis key
+
+data:
+  permission:
+    key: dataPermission #数据权限rediskey
+system:
+  instance: cncc  # 系统类型：cncc 支付系统; cfid 非支付系统
+sms:
+  type: ali # 暂时不删，sms-common用到了
+app:
+  portal:
+    user:
+      sync:
+        cron: 0 */5 * * * ?
+    dep:
+      sync:
+        cron: 0 */5 * * * ?
+user:
+  individuation:
+    #    值班辅助系统,用户短信邮件自定义配置,三级目录映射一级目录结构
+    layerToOne: '{"duty-schedule":"zhiban_sys"}'
+jw:
+  env: npc-bj
+
+springdoc:
+  api-docs:
+    enabled: true
+knife4j:
+  enable: true

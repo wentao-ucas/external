@@ -1,0 +1,20 @@
+mojito:
+  local:
+    namespace: caos_test
+    services:
+      - name: data-service
+        namespace: caos_test
+        instances:
+          - ip: 127.0.0.1
+            port: 31402
+            weight: 1.0D
+            transport: HTTP
+            serializeType: JSON
+      - name: api-service-provider
+        namespace: jw
+        instances:
+          - ip: 127.0.0.1
+            port: 13472
+            weight: 1.0D
+            transport: HTTP
+            serializeType: JSON

@@ -1,0 +1,383 @@
+2024-12-19 15:17:26.584  INFO 19256 --- [main] c.c.c.d.p.BapDataProviderApplication     : The following 1 profile is active: "dev"
+2024-12-19 15:17:28.723  INFO 19256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-19 15:17:28.730  INFO 19256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-19 15:17:28.779  INFO 19256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-12-19 15:17:29.270  INFO 19256 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=21ac8169-c8e4-31be-8133-10eceab52ba6
+2024-12-19 15:17:30.093  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'cn.cncc.mojito.boot.provider.springmvc.autoconfigure.SpringMvcProviderAutoConfiguration' of type [cn.cncc.mojito.boot.provider.springmvc.autoconfigure.SpringMvcProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.099  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'handlerMappings' of type [java.util.ArrayList] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.138  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.141  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.143  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$540/1789387126] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.148  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.303  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForInteger' of type [org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForInteger] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.314  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForLong' of type [org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForLong] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.318  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForInteger' of type [org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForInteger] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.320  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator' of type [org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.337  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator' of type [org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.338  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'providerProperties' of type [cn.cncc.mojito.rpc.provider.properties.ProviderProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.445  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'cn.cncc.mojito.boot.invoker.autoconfigure.InvokerClientAutoConfiguration' of type [cn.cncc.mojito.boot.invoker.autoconfigure.InvokerClientAutoConfiguration$$EnhancerBySpringCGLIB$$166abae9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:30.451  INFO 19256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'receiverMappings' of type [java.util.concurrent.ConcurrentHashMap] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-19 15:17:31.131  INFO 19256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 31402 (http)
+2024-12-19 15:17:31.153  INFO 19256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-19 15:17:31.154  INFO 19256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-12-19 15:17:31.564  INFO 19256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-19 15:17:31.564  INFO 19256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4939 ms
+2024-12-19 15:17:33.487  INFO 19256 --- [main] c.c.m.g.c.r.client.RpcClientFactory      : [RpcClientFactory] create a new rpc client of 7908d150-a144-4498-82d4-d4d45e3612d0
+2024-12-19 15:17:33.487  INFO 19256 --- [main] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] RpcClient init label, labels: {LABEL_MODULE=naming, source=sdk}
+2024-12-19 15:17:33.490  INFO 19256 --- [main] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] RpcClient init, ServerListFactory: cn.cncc.mojito.gov.client.naming.core.ServerListManager
+2024-12-19 15:17:33.491  INFO 19256 --- [main] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] registry connection listener to current client: cn.cncc.mojito.gov.client.naming.remote.grpc.redo.NamingGrpcRedoService
+2024-12-19 15:17:33.491  INFO 19256 --- [main] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] registry connection listener to current client: cn.cncc.mojito.gov.client.naming.cache.ServiceInfoHolder
+2024-12-19 15:17:33.492  INFO 19256 --- [main] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] register server push request handler: cn.cncc.mojito.gov.client.naming.remote.grpc.NamingPushRequestHandler
+2024-12-19 15:17:33.493  INFO 19256 --- [main] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] register server push request handler: cn.cncc.mojito.gov.client.naming.remote.grpc.BroadcastDataRequestHandler
+2024-12-19 15:17:33.493  INFO 19256 --- [main] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] Try to connect to server on start up, server: {serverIp='172.22.139.28', server main port=23496}
+2024-12-19 15:17:33.671  INFO 19256 --- [main] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] Success to connect to server [172.22.139.28:23496] on start up, connectionId = 1734592202961_172.23.16.241_52714
+2024-12-19 15:17:33.685  INFO 19256 --- [cn.cncc.mojito.gov.client.remote.worker.-1] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] notify connected event to listeners.
+2024-12-19 15:17:33.686  INFO 19256 --- [main] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] register server push request handler: cn.cncc.mojito.gov.common.remote.client.RpcClient$ConnectResetRequestHandler
+2024-12-19 15:17:33.687  INFO 19256 --- [main] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] register server push request handler: cn.cncc.mojito.gov.common.remote.client.RpcClient$3
+2024-12-19 15:17:35.095  WARN 19256 --- [main] c.c.m.r.s.SerializationConfiguration     : customSerializer has not been defined
+2024-12-19 15:17:35.162  INFO 19256 --- [main] oConfig$$EnhancerBySpringCGLIB$$6791abc7 : *********tolerantRules:TolerantProperties{flowRules=null, degradeRules=null, authRules=null}
+2024-12-19 15:17:36.829  WARN 19256 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f011f93c-7cf3-45b7-ab79-16bf8dfcfcc9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-19 15:17:37.348  INFO 19256 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38ad86b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@129aaac1, org.springframework.security.web.header.HeaderWriterFilter@73a1a1b4, org.springframework.security.web.authentication.logout.LogoutFilter@52c27d53, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7872e91f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@857f1a7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4ba1f425, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@73ff7a54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69c0bae6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f55a864, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@375ff309, org.springframework.security.web.session.SessionManagementFilter@39a30d1a, org.springframework.security.web.access.ExceptionTranslationFilter@3794b7b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43549c6c]
+2024-12-19 15:17:37.543  WARN 19256 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2024-12-19 15:17:37.554  INFO 19256 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-12-19 15:17:37.815  INFO 19256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 31402 (http) with context path ''
+2024-12-19 15:17:37.942  INFO 19256 --- [main] c.c.m.r.p.s.spring.HandlerMappingInject  : [path: /inner_api/pubParamService/getParamDetailById], [method: POST], [produces: application/json]
+2024-12-19 15:17:37.942  INFO 19256 --- [main] c.c.m.r.p.s.spring.HandlerMappingInject  : [path: /inner_api/pubParamService/getParamlistByType], [method: POST], [produces: application/json]
+2024-12-19 15:17:37.945  WARN 19256 --- [main] c.c.m.b.d.a.MojitoDiscoveryAutoRegister  : [NC-Starter] subscribeServiceNames is empty, it may be a provider only
+2024-12-19 15:17:37.945  INFO 19256 --- [main] c.c.m.b.d.a.MojitoDiscoveryAutoRegister  : [NC-Starter] publish subscribe event
+2024-12-19 15:17:38.180  INFO 19256 --- [main] c.c.m.g.c.n.cache.ServiceInfoHolder      : init new ips(1) service: data-service@@caos_test -> [{"instanceId":"10.233.116.98_31402","ip":"10.233.116.98","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-13 13:31:29","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 15:17:38.183  INFO 19256 --- [main] c.c.m.g.c.n.cache.ServiceInfoHolder      : current ips:(1) service: data-service@@caos_test -> [{"instanceId":"10.233.116.98_31402","ip":"10.233.116.98","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-13 13:31:29","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 15:17:38.200  WARN 19256 --- [main] c.c.m.b.d.a.MojitoDiscoveryAutoRegister  : [NC-Starter] subscribeServiceNames is empty, it may be a provider only
+2024-12-19 15:17:38.201  INFO 19256 --- [main] c.c.m.b.d.a.MojitoDiscoveryAutoRegister  : [NC-Starter] publish subscribe event
+2024-12-19 15:17:38.201  INFO 19256 --- [main] c.c.m.g.c.n.r.g.NamingGrpcClientProxy    : [REGISTER-SERVICE] namespace: caos_test registering serviceName: data-service with instance: Instance{ip='172.23.16.241', port=31402, weight=1.0, healthy=true, enabled=true, ephemeral=true, serviceName='data-service', transport='HTTP', serializeType='JSON', dataCenterInfo=DEFAULT_REGION-DEFAULT_ZONE, metadata={preserved.instance.start.time=2024-12-19 15:17:38, preserved.register.source=SPRING_BOOT, version=1.0.0.0}}
+2024-12-19 15:17:38.233  INFO 19256 --- [main] c.c.m.b.d.a.MojitoDiscoveryAutoRegister  : [NC-Starter] register finished
+2024-12-19 15:17:38.234  INFO 19256 --- [main] c.c.m.r.p.s.spring.HandlerMappingInject  : ServerStartedEvent published by http provider
+2024-12-19 15:17:38.239  WARN 19256 --- [main] c.c.m.r.p.s.RpcProviderTraceUtil         : rpc provider trace statistics started
+2024-12-19 15:17:38.242  INFO 19256 --- [main] c.c.c.d.p.BapDataProviderApplication     : Started BapDataProviderApplication in 17.377 seconds (JVM running for 19.256)
+2024-12-19 15:17:38.245  WARN 19256 --- [main] c.c.m.b.d.a.MojitoDiscoveryAutoRegister  : [NC-Starter] subscribeServiceNames is empty, it may be a provider only
+2024-12-19 15:17:38.245  INFO 19256 --- [main] c.c.m.b.d.a.MojitoDiscoveryAutoRegister  : [NC-Starter] publish subscribe event
+2024-12-19 15:17:38.245  WARN 19256 --- [main] c.c.m.b.d.a.MojitoDiscoveryAutoRegister  : [NC-Starter] subscribeServiceNames is empty, it may be a provider only
+2024-12-19 15:17:38.245  INFO 19256 --- [main] c.c.m.b.d.a.MojitoDiscoveryAutoRegister  : [NC-Starter] publish subscribe event
+2024-12-19 15:17:38.245  INFO 19256 --- [main] c.c.m.g.c.n.r.g.NamingGrpcClientProxy    : [REGISTER-SERVICE] namespace: caos_test registering serviceName: data-service with instance: Instance{ip='172.23.16.241', port=31402, weight=1.0, healthy=true, enabled=true, ephemeral=true, serviceName='data-service', transport='HTTP', serializeType='JSON', dataCenterInfo=DEFAULT_REGION-DEFAULT_ZONE, metadata={preserved.instance.start.time=2024-12-19 15:17:38, preserved.register.source=SPRING_BOOT, version=1.0.0.0}}
+2024-12-19 15:17:38.252  INFO 19256 --- [main] c.c.m.b.d.a.MojitoDiscoveryAutoRegister  : [NC-Starter] register finished
+2024-12-19 15:17:38.252  INFO 19256 --- [main] c.c.m.r.invoker.spring.InvokerListener   : ServerStartedEvent published by invoker
+2024-12-19 15:17:38.254  WARN 19256 --- [main] c.c.m.r.i.s.RpcInvokerTraceUtil          : rpc invoker trace statistics started
+2024-12-19 15:17:38.267  INFO 19256 --- [main] c.c.c.d.p.BapDataProviderApplication     : spring.profiles.active=dev, caos.env=null
+2024-12-19 15:17:38.271  INFO 19256 --- [main] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [subscribe] application-data-service-dev.yml+caos_test
+2024-12-19 15:17:38.288  INFO 19256 --- [main] c.c.m.gov.client.config.impl.CacheData   : [config_rpc_client] [add-listener] ok, namespace=caos_test, dataId=application-data-service-dev.yml, region=null, zone=null, cnt=1
+2024-12-19 15:17:38.329  INFO 19256 --- [main] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [subscribe] application-data-service.yml+caos_test
+2024-12-19 15:17:38.329  INFO 19256 --- [main] c.c.m.gov.client.config.impl.CacheData   : [config_rpc_client] [add-listener] ok, namespace=caos_test, dataId=application-data-service.yml, region=null, zone=null, cnt=1
+2024-12-19 15:17:38.567  INFO 19256 --- [main] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:17:38.579  INFO 19256 --- [RMI TCP Connection(3)-111.99.88.240] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-19 15:17:38.579  INFO 19256 --- [RMI TCP Connection(3)-111.99.88.240] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-19 15:17:38.580  INFO 19256 --- [RMI TCP Connection(2)-111.99.88.240] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-19 15:17:38.583  INFO 19256 --- [RMI TCP Connection(3)-111.99.88.240] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-12-19 15:17:38.602  INFO 19256 --- [main] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [subscribe] application-data-service.yml+DEFAULT_REGION+DEFAULT_ZONE+caos_test
+2024-12-19 15:17:38.602  INFO 19256 --- [main] c.c.m.gov.client.config.impl.CacheData   : [config_rpc_client] [add-listener] ok, namespace=caos_test, dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, cnt=1
+2024-12-19 15:17:38.718  INFO 19256 --- [main] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:17:38.726  INFO 19256 --- [main] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:17:38.735  INFO 19256 --- [main] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [subscribe] application-data-service-dev.yml+DEFAULT_REGION+DEFAULT_ZONE+caos_test
+2024-12-19 15:17:38.736  INFO 19256 --- [main] c.c.m.gov.client.config.impl.CacheData   : [config_rpc_client] [add-listener] ok, namespace=caos_test, dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, cnt=1
+2024-12-19 15:17:38.750  INFO 19256 --- [main] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:17:38.754  INFO 19256 --- [grpc-client-executor-1] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] receive server push request,request: NotifySubscriberRequest, requestId: 25150
+2024-12-19 15:17:38.755  INFO 19256 --- [grpc-client-executor-1] c.c.m.g.c.n.cache.ServiceInfoHolder      : new ips(1) service: data-service@@caos_test -> [{"instanceId":"172.23.16.241_31402","ip":"172.23.16.241","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:17:38","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 15:17:38.755  INFO 19256 --- [grpc-client-executor-1] c.c.m.g.c.n.cache.ServiceInfoHolder      : current ips:(2) service: data-service@@caos_test -> [{"instanceId":"10.233.116.98_31402","ip":"10.233.116.98","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-13 13:31:29","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000},{"instanceId":"172.23.16.241_31402","ip":"172.23.16.241","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:17:38","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 15:17:38.755  INFO 19256 --- [grpc-client-executor-1] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] ack server push request: NotifySubscriberRequest, requestId: 25150
+2024-12-19 15:17:38.756  INFO 19256 --- [main] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:17:38.763  INFO 19256 --- [main] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 15:17:39.015  INFO 19256 --- [RMI TCP Connection(2)-111.99.88.240] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-19 15:17:39.530  INFO 19256 --- [gov.client.naming.redo.0] c.c.m.g.c.n.r.g.redo.RedoScheduledTask   : redo subscriber operation: REGISTER for serviceName: data-service, DataCenterInfo: null, namespace: caos_test
+2024-12-19 15:22:24.047  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:22:24.053  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:22:24.059  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 15:22:24.063  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 15:27:24.084  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:27:24.089  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:27:24.095  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 15:27:24.099  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 15:32:24.119  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:32:24.123  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:32:24.128  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 15:32:24.132  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 15:37:24.152  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:37:24.156  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:37:24.161  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 15:37:24.164  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 15:42:24.186  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:42:24.191  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:42:24.197  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 15:42:24.204  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 15:47:24.222  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:47:24.227  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:47:24.234  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 15:47:24.239  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 15:52:24.258  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:52:24.264  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:52:24.267  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 15:52:24.271  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 15:57:24.288  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:57:24.292  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 15:57:24.296  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 15:57:24.300  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 15:58:48.794  INFO 19256 --- [grpc-client-executor-505] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] receive server push request,request: NotifySubscriberRequest, requestId: 25194
+2024-12-19 15:58:48.796  INFO 19256 --- [grpc-client-executor-505] c.c.m.g.c.n.cache.ServiceInfoHolder      : new ips(1) service: data-service@@caos_test -> [{"instanceId":"172.23.16.217_31402","ip":"172.23.16.217","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:58:48","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 15:58:48.797  INFO 19256 --- [grpc-client-executor-505] c.c.m.g.c.n.cache.ServiceInfoHolder      : current ips:(3) service: data-service@@caos_test -> [{"instanceId":"10.233.116.98_31402","ip":"10.233.116.98","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-13 13:31:29","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000},{"instanceId":"172.23.16.241_31402","ip":"172.23.16.241","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:17:38","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000},{"instanceId":"172.23.16.217_31402","ip":"172.23.16.217","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:58:48","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 15:58:48.797  INFO 19256 --- [grpc-client-executor-505] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] ack server push request: NotifySubscriberRequest, requestId: 25194
+2024-12-19 16:02:24.314  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:02:24.318  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:02:24.322  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:02:24.326  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:07:24.702  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:07:24.710  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:07:24.717  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:07:24.722  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:12:24.741  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:12:24.746  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:12:24.752  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:12:24.756  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:17:24.776  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:17:24.779  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:17:24.783  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:17:24.787  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:17:39.269  WARN 19256 --- [Timer-0] c.c.m.r.p.s.RpcProviderTraceUtil         : provider tps ava cost:119 total count:3 in 3600 seconds,with success count:3,fail count:0
+2024-12-19 16:17:39.284  WARN 19256 --- [Timer-1] c.c.m.r.i.s.RpcInvokerTraceUtil          : invoker tps ava cost:0 total count:0 in 3600 seconds,with success count:0,fail count:0
+2024-12-19 16:18:22.682  INFO 19256 --- [grpc-client-executor-740] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] receive server push request,request: NotifySubscriberRequest, requestId: 25205
+2024-12-19 16:18:22.683  INFO 19256 --- [grpc-client-executor-740] c.c.m.g.c.n.cache.ServiceInfoHolder      : removed ips(1) service: data-service@@caos_test -> [{"instanceId":"172.23.16.217_31402","ip":"172.23.16.217","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:58:48","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:18:22.683  INFO 19256 --- [grpc-client-executor-740] c.c.m.g.c.n.cache.ServiceInfoHolder      : current ips:(2) service: data-service@@caos_test -> [{"instanceId":"10.233.116.98_31402","ip":"10.233.116.98","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-13 13:31:29","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000},{"instanceId":"172.23.16.241_31402","ip":"172.23.16.241","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:17:38","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:18:22.683  INFO 19256 --- [grpc-client-executor-740] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] ack server push request: NotifySubscriberRequest, requestId: 25205
+2024-12-19 16:19:14.072  INFO 19256 --- [grpc-client-executor-751] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] receive server push request,request: NotifySubscriberRequest, requestId: 25210
+2024-12-19 16:19:14.073  INFO 19256 --- [grpc-client-executor-751] c.c.m.g.c.n.cache.ServiceInfoHolder      : new ips(1) service: data-service@@caos_test -> [{"instanceId":"172.23.16.217_31402","ip":"172.23.16.217","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 16:19:13","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:19:14.073  INFO 19256 --- [grpc-client-executor-751] c.c.m.g.c.n.cache.ServiceInfoHolder      : current ips:(3) service: data-service@@caos_test -> [{"instanceId":"10.233.116.98_31402","ip":"10.233.116.98","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-13 13:31:29","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000},{"instanceId":"172.23.16.241_31402","ip":"172.23.16.241","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:17:38","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000},{"instanceId":"172.23.16.217_31402","ip":"172.23.16.217","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 16:19:13","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:19:14.074  INFO 19256 --- [grpc-client-executor-751] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] ack server push request: NotifySubscriberRequest, requestId: 25210
+2024-12-19 16:22:24.805  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:22:24.809  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:22:24.814  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:22:24.818  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:27:24.835  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:27:24.839  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:27:24.844  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:27:24.847  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:32:24.880  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:32:24.884  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:32:24.891  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:32:24.900  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:37:24.919  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:37:24.924  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:37:24.929  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:37:24.932  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:42:24.950  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:42:24.954  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:42:24.957  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:42:24.962  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:45:22.981  INFO 19256 --- [grpc-client-executor-1065] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] receive server push request,request: NotifySubscriberRequest, requestId: 25236
+2024-12-19 16:45:22.983  INFO 19256 --- [grpc-client-executor-1065] c.c.m.g.c.n.cache.ServiceInfoHolder      : removed ips(1) service: data-service@@caos_test -> [{"instanceId":"172.23.16.217_31402","ip":"172.23.16.217","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 16:19:13","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:45:22.983  INFO 19256 --- [grpc-client-executor-1065] c.c.m.g.c.n.cache.ServiceInfoHolder      : current ips:(2) service: data-service@@caos_test -> [{"instanceId":"10.233.116.98_31402","ip":"10.233.116.98","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-13 13:31:29","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000},{"instanceId":"172.23.16.241_31402","ip":"172.23.16.241","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:17:38","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:45:22.984  INFO 19256 --- [grpc-client-executor-1065] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] ack server push request: NotifySubscriberRequest, requestId: 25236
+2024-12-19 16:47:24.979  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:47:24.983  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:47:24.987  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:47:24.992  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:52:25.008  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:52:25.013  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=null, zone=null, namespace=caos_test, md5=, content=, type=null
+2024-12-19 16:52:25.017  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=6110afbaf5123e2c1ecc7cc083eb5869, content=mojito:
+  provider:
+    transport: HTTP
+    http:
+      serializeType: JSON
+      port: 31402
+  requ..., type=YAML
+2024-12-19 16:52:25.022  INFO 19256 --- [cn.cncc.mojito.gov.client.Worker] c.c.m.g.client.config.impl.ClientWorker  : [config_rpc_client] [data-received] dataId=application-data-service-dev.yml, region=DEFAULT_REGION, zone=DEFAULT_ZONE, namespace=caos_test, md5=2d0bd4ead18fdff3edbcd099a7775808, content=mojito:
+  discovery:
+    namespace: caos_test, type=YAML
+2024-12-19 16:53:19.997  INFO 19256 --- [grpc-client-executor-1160] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] receive server push request,request: NotifySubscriberRequest, requestId: 25313
+2024-12-19 16:53:19.997  INFO 19256 --- [grpc-client-executor-1160] c.c.m.g.c.n.cache.ServiceInfoHolder      : removed ips(1) service: data-service@@caos_test -> [{"instanceId":"10.233.116.98_31402","ip":"10.233.116.98","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-13 13:31:29","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:53:19.998  INFO 19256 --- [grpc-client-executor-1160] c.c.m.g.c.n.cache.ServiceInfoHolder      : current ips:(1) service: data-service@@caos_test -> [{"instanceId":"172.23.16.241_31402","ip":"172.23.16.241","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:17:38","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:53:19.998  INFO 19256 --- [grpc-client-executor-1160] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] ack server push request: NotifySubscriberRequest, requestId: 25313
+2024-12-19 16:53:34.617  WARN 19256 --- [Thread-34] c.c.m.gov.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2024-12-19 16:53:34.619  WARN 19256 --- [Thread-34] c.c.m.gov.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2024-12-19 16:53:34.629  INFO 19256 --- [SpringApplicationShutdownHook] .c.m.b.d.a.MojitoDiscoveryAutoDeregister : [NC-Starter] 应用关闭注销服务实例
+2024-12-19 16:53:34.629  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.g.NamingGrpcClientProxy    : [DEREGISTER-SERVICE] namespace: caos_test de-registering serviceName: data-service with instance: Instance{ip='172.23.16.241', port=31402, weight=1.0, healthy=true, enabled=true, ephemeral=true, serviceName='data-service', transport='HTTP', serializeType='JSON', dataCenterInfo=DEFAULT_REGION-DEFAULT_ZONE, metadata={preserved.instance.start.time=2024-12-19 15:17:38, preserved.register.source=SPRING_BOOT, version=1.0.0.0}}
+2024-12-19 16:53:34.644  INFO 19256 --- [SpringApplicationShutdownHook] .c.m.b.d.a.MojitoDiscoveryAutoDeregister : [NC-Starter] deregister finished, namespace: caos_test, serviceName : data-service, ip : 172.23.16.241, port : 31402
+2024-12-19 16:53:34.932  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.cache.ServiceInfoHolder      : cn.cncc.mojito.gov.client.naming.cache.ServiceInfoHolder do shutdown begin
+2024-12-19 16:53:34.934  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.backups.FailoverReactor      : cn.cncc.mojito.gov.client.naming.backups.FailoverReactor do shutdown begin
+2024-12-19 16:53:34.940  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.backups.FailoverReactor      : cn.cncc.mojito.gov.client.naming.backups.FailoverReactor do shutdown stop
+2024-12-19 16:53:34.941  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.cache.ServiceInfoHolder      : cn.cncc.mojito.gov.client.naming.cache.ServiceInfoHolder do shutdown stop
+2024-12-19 16:53:34.954  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.NamingClientProxyDelegate  : cn.cncc.mojito.gov.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2024-12-19 16:53:34.954  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.c.ServiceInfoUpdateService   : cn.cncc.mojito.gov.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2024-12-19 16:53:35.222  INFO 19256 --- [grpc-client-executor-1164] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] receive server push request,request: NotifySubscriberRequest, requestId: 25316
+2024-12-19 16:53:35.223  INFO 19256 --- [grpc-client-executor-1164] c.c.m.g.c.n.cache.ServiceInfoHolder      : removed ips(1) service: data-service@@caos_test -> [{"instanceId":"172.23.16.241_31402","ip":"172.23.16.241","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 15:17:38","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:53:35.223  INFO 19256 --- [grpc-client-executor-1164] c.c.m.g.c.n.cache.ServiceInfoHolder      : current ips:(0) service: data-service@@caos_test -> []
+2024-12-19 16:53:35.224  INFO 19256 --- [grpc-client-executor-1164] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] ack server push request: NotifySubscriberRequest, requestId: 25316
+2024-12-19 16:53:35.827  INFO 19256 --- [grpc-client-executor-1165] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] receive server push request,request: NotifySubscriberRequest, requestId: 25319
+2024-12-19 16:53:35.827  INFO 19256 --- [grpc-client-executor-1165] c.c.m.g.c.n.cache.ServiceInfoHolder      : new ips(1) service: data-service@@caos_test -> [{"instanceId":"10.233.111.122_31402","ip":"10.233.111.122","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 16:52:34","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:53:35.830  INFO 19256 --- [grpc-client-executor-1165] c.c.m.g.c.n.cache.ServiceInfoHolder      : current ips:(1) service: data-service@@caos_test -> [{"instanceId":"10.233.111.122_31402","ip":"10.233.111.122","port":31402,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"serviceName":"data-service","transport":"HTTP","serializeType":"JSON","dataCenterInfo":{"region":"DEFAULT_REGION","zone":"DEFAULT_ZONE"},"metadata":{"preserved.instance.start.time":"2024-12-19 16:52:34","preserved.register.source":"SPRING_BOOT","version":"1.0.0.0"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-12-19 16:53:35.831  INFO 19256 --- [grpc-client-executor-1165] c.c.m.g.common.remote.client.RpcClient   : [7908d150-a144-4498-82d4-d4d45e3612d0] ack server push request: NotifySubscriberRequest, requestId: 25319
+2024-12-19 16:53:37.959  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.c.ServiceInfoUpdateService   : cn.cncc.mojito.gov.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2024-12-19 16:53:37.959  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.naming.core.ServerListManager  : [SERVER-LIST] cn.cncc.mojito.gov.client.naming.core.ServerListManager do shutdown begin
+2024-12-19 16:53:37.960  WARN 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.h.NamingHttpClientManager  : [NC-NamingHttpClientManager] shutdown start: cn.cncc.mojito.gov.client.naming.remote.http.NamingHttpClientManager
+2024-12-19 16:53:37.960  WARN 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.h.NamingHttpClientManager  : [NC-NamingHttpClientManager] shutdown finished: cn.cncc.mojito.gov.client.naming.remote.http.NamingHttpClientManager
+2024-12-19 16:53:37.960  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.naming.core.ServerListManager  : [SERVER-LIST] cn.cncc.mojito.gov.client.naming.core.ServerListManager do shutdown stop
+2024-12-19 16:53:37.960  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.g.NamingGrpcClientProxy    : cn.cncc.mojito.gov.client.naming.remote.grpc.NamingGrpcClientProxy do shutdown begin
+2024-12-19 16:53:37.960  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.common.remote.client.RpcClient   : Shutdown rpc client, set status to shutdown
+2024-12-19 16:53:37.961  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.common.remote.client.RpcClient   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@7ad4b86b[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2024-12-19 16:53:37.961  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.common.remote.client.RpcClient   : Close current connection 1734592202961_172.23.16.241_52714
+2024-12-19 16:53:37.964  INFO 19256 --- [grpc-client-executor-1166] c.c.m.g.c.remote.client.grpc.GrpcClient  : [1734592202961_172.23.16.241_52714] ignore complete event, isRunning: false, isAbandon: false
+2024-12-19 16:53:37.975  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.g.NamingGrpcClientProxy    : cn.cncc.mojito.gov.client.naming.remote.grpc.NamingGrpcClientProxy do shutdown stop
+2024-12-19 16:53:37.976  INFO 19256 --- [SpringApplicationShutdownHook] c.c.m.g.c.n.r.NamingClientProxyDelegate  : cn.cncc.mojito.gov.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2024-12-19 16:53:38.132  INFO 19256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-19 16:53:38.145  INFO 19256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,4 @@
+mojito:
+  discovery:
+    server-addr: 172.22.139.28:23496
+    namespace: caos_test

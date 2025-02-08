@@ -1,0 +1,12 @@
+mojito:
+  discovery:
+    namespace: caos_test
+    mode: local
+spring:
+  application:
+    name: log-service
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://27.193.16.245:30008/oauth/check_token
+

@@ -1,0 +1,6 @@
+mojito:
+  discovery:
+    server-addr: 17.192.77.172:8848,17.192.77.173:8848,17.192.109.172:8848,17.192.109.173:8848
+    namespace: caos
+    username: uomp
+    password: 24a6bb2ea8dc7b580379cb681e3f8fbfedeba44935b54670c8524fa467b45e0a

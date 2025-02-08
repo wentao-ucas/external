@@ -1,0 +1,18 @@
+mojito:
+  discovery:
+    namespace: caos_test
+spring:
+  application:
+    name: platform-service
+  datasource:
+    url: jdbc:mysql://172.22.139.34:3306/bap_platform?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false
+    username: bap_platform
+    password: 111111
+  redis:
+    host: 172.22.139.34
+    database: 0
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://27.193.16.245:30008/oauth/check_token
+

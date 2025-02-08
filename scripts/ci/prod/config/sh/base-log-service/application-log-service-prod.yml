@@ -1,0 +1,17 @@
+mojito:
+  discovery:
+    server-addr: 17.194.131.42:8848,17.194.147.42:8848,17.194.147.36:8848,17.251.140.64:8848
+    namespace: caos
+    username: uomp
+    password: 24a6bb2ea8dc7b580379cb681e3f8fbfedeba44935b54670c8524fa467b45e0a
+
+diepes:
+  datashare:
+    restserver: http://17.194.28.21:9082
+    username: meta
+    password: meta
+springdoc:
+  api-docs:
+    enabled: false
+knife4j:
+  enable: false

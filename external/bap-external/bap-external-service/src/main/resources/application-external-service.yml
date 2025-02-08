@@ -1,0 +1,93 @@
+mojito:
+  provider:
+    transport: http
+    http:
+      serializeType: JSON
+      port: 31405
+  request:
+    http:
+      socketTimeout: 2400000
+      connectionTimeout: 1000
+      connectionRequestTimeout: 1200000
+      maxConnections: 2200
+      maxConnectionsPerroute: 1000
+  discovery:
+    mode: remote
+    auto-register: true
+    server-addr: 172.22.139.28:23496
+    namespace: caos
+    instance-info:
+      dataCenter-info:
+        region: DEFAULT_REGION
+        zone: DEFAULT_ZONE
+    username: caosconfig
+    password: 9343bd04f598b455af5216dcb61b9ce339144adad9d6357415d039bf9c4581fa
+
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    serialization:
+      write-dates-as-timestamps: false
+  application :
+    name: external-service
+  datasource :
+    url: jdbc:mysql://db-external-service:3306/bap_platform?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: Jwteam@68
+  redis:
+    host: 27.192.139.34
+    database: 1
+    password: Jw61697529
+  servlet:
+    multipart:
+      max-file-size: 20000MB
+      max-request-size: 20000MB
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+# httpClient配置
+httpClientConfig:
+  connectTimeout: 10000              # 建立连接的超时时间(ms),客户端与服务器建立连接的超时时间,超出后会抛出ConnectionTimeOutException
+  socketTimeout: 90000              # socket超时时间(ms),客户端从服务器读取数据的超时时间,超出后会抛出SocketTimeOutException
+  connectionRequestTimeout: 10000    # 获取连接超时时间(ms),从连接池获取连接的超时时间,如果连接池里连接都被用了,且超过设定时间,会抛出connectionrequesttimeout
+  ioThreadCount: 32                  # IO线程池中线程的数量
+  maxTotal: 100                     # 并行连接的最大数量
+  maxPerRoute: 20                   # 同一个ip的最大连接数量
+
+cloud:
+  request:
+    maxCallNum: 2
+    waitTime: 100
+
+logging:
+  level:
+    root: INFO
+  file:
+    name: logs/external-service/caos.log
+    max-history: 30
+    max-size: 10MB
+
+security:
+  oauth2:
+    client:
+      clientId: open_client
+      clientSecret: open_secret
+    resource:
+      token-info-uri: http://uaa-service:31409/oauth/check_token
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    call-setters-on-nulls: true
+
+pagehelper:
+  helper-dialect: mysql
+  pageSizeZero: true
+
+springdoc:
+  api-docs:
+    enabled: true
+knife4j:
+  enable: true

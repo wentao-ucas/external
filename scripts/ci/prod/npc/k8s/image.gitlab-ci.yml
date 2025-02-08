@@ -1,0 +1,34 @@
+image-gateway-prod:
+  variables:
+    ENV: prod
+    ENV_TYPE: npc
+    BAP_MODULE: $BAP_MODULE_GATEWAY
+  stage: image
+#  when: manual
+  cache:
+    key: cache-jar
+    policy: pull
+    paths:
+      - ./gateway/target/gateway.jar
+  only:
+    - tags
+  script:
+    - cp -rf /usr/share/zoneinfo .
+    - ./scripts/ci/image.sh
+
+image-log-prod:
+  variables:
+    BAP_MODULE: $BAP_MODULE_BASE_LOG_SERVICE
+    ENV: prod
+    ENV_TYPE: npc
+  stage: image
+  cache:
+    key: cache-jar
+    policy: pull
+    paths:
+      - ./base/base-log/base-log-service/target/bap-log-service.jar
+  only:
+    - tags
+  script:
+    - cp -rf /usr/share/zoneinfo .
+    - ./scripts/ci/image.sh

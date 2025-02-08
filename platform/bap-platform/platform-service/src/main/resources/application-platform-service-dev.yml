@@ -1,0 +1,3 @@
+mojito:
+  discovery:
+    namespace: caos_test

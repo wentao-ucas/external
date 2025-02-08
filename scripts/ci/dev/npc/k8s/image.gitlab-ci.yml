@@ -1,0 +1,105 @@
+image-gateway-npc:
+  variables:
+    ENV: dev
+    ENV_TYPE: npc
+    BAP_MODULE: $BAP_MODULE_GATEWAY
+  stage: image
+#  when: manual
+  cache:
+    key: cache-jar
+    policy: pull
+    paths:
+      - ./gateway/target/gateway.jar
+  only:
+    - dev
+  script:
+    - cp -rf /usr/share/zoneinfo .
+    - ./scripts/ci/image.sh
+
+image-uaa-npc:
+  variables:
+    BAP_MODULE: $BAP_MODULE_UAA
+    ENV: dev
+    ENV_TYPE: npc
+  stage: image
+#  when: manual
+  cache:
+    key: cache-jar
+    policy: pull
+    paths:
+      - ./platform/uaa/uaa-service/target/uaa-service.jar
+  only:
+    - dev
+  script:
+    - cp -rf /usr/share/zoneinfo .
+    - ./scripts/ci/image.sh
+
+image-external-npc:
+  variables:
+    BAP_MODULE: $BAP_MODULE_EXTERNAL
+    ENV: dev
+    ENV_TYPE: npc
+  stage: image
+  #  when: manual
+  cache:
+    key: cache-jar
+    policy: pull
+    paths:
+      - ./external/bap-external/bap-external-service/target/bap-external-service.jar
+  only:
+    - dev
+  script:
+    - cp -rf /usr/share/zoneinfo .
+    - ./scripts/ci/image.sh
+
+image-base-data-service-npc:
+  variables:
+    BAP_MODULE: $BAP_MODULE_BASE_DATA_SERVICE
+    ENV: dev
+    ENV_TYPE: npc
+  stage: image
+  #  when: manual
+  cache:
+    key: cache-jar
+    policy: pull
+    paths:
+      - ./base/base-data/base-data-service/target/bap-data-service.jar
+  only:
+    - dev
+  script:
+    - cp -rf /usr/share/zoneinfo .
+    - ./scripts/ci/image.sh
+
+image-platform-npc:
+  variables:
+    BAP_MODULE: $BAP_MODULE_PLATFORM
+    ENV: dev
+    ENV_TYPE: npc
+  stage: image
+  cache:
+    key: cache-jar
+    policy: pull
+    paths:
+      - ./platform/bap-platform/platform-service/target/platform-service.jar
+  only:
+    - dev
+  script:
+    - cp -rf /usr/share/zoneinfo .
+    - ./scripts/ci/image.sh
+
+image-log-npc:
+  variables:
+    BAP_MODULE: $BAP_MODULE_BASE_LOG_SERVICE
+    ENV: dev
+    ENV_TYPE: npc
+  stage: image
+  cache:
+    key: cache-jar
+    policy: pull
+    paths:
+      - ./base/base-log/base-log-service/target/bap-log-service.jar
+  only:
+    - dev
+  script:
+    - cp -rf /usr/share/zoneinfo .
+    - ./scripts/ci/image.sh

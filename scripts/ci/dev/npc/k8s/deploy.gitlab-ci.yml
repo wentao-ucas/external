@@ -1,0 +1,101 @@
+deploy-gateway-npc:
+  variables:
+    ENV: dev
+    ENV_TYPE: npc
+    BOOTSTRAP_FILE: ./gateway/src/main/resources/bootstrap-dev.properties
+    BAP_MODULE: $BAP_MODULE_GATEWAY
+  stage: deploy
+  cache:
+    key: "cache-yaml-npc-$CI_PIPELINE_ID"
+    policy: pull
+    paths:
+      - ./scripts/ci/dev/npc/yml/gateway.yaml
+  only:
+    - dev
+  script:
+    - ./scripts/ci/deploy.sh
+deploy-uaa-npc:
+  variables:
+    ENV: dev
+    ENV_TYPE: npc
+    BOOTSTRAP_FILE: ./platform/uaa/uaa-service/src/main/resources/bootstrap-dev.properties
+    BAP_MODULE: $BAP_MODULE_UAA
+  stage: deploy
+  cache:
+    key: "cache-yaml-npc-$CI_PIPELINE_ID"
+    policy: pull
+    paths:
+      - ./scripts/ci/dev/npc/yml/uaa-service.yaml
+#  when: manual
+  only:
+    - dev
+  script:
+    - ./scripts/ci/deploy.sh
+deploy-external-npc:
+  variables:
+    ENV: dev
+    ENV_TYPE: npc
+    BOOTSTRAP_FILE: ./external/bap-external/bap-external-service/src/main/resources/bootstrap-dev.properties
+    BAP_MODULE: $BAP_MODULE_EXTERNAL
+  stage: deploy
+  cache:
+    key: "cache-yaml-npc-$CI_PIPELINE_ID"
+    policy: pull
+    paths:
+      - ./scripts/ci/dev/npc/yml/bap-external-service.yaml
+  #  when: manual
+  only:
+    - dev
+  script:
+    - ./scripts/ci/deploy.sh
+deploy-base-data-npc:
+  variables:
+    ENV: dev
+    ENV_TYPE: npc
+    BOOTSTRAP_FILE: ./base/base-data/base-data-service/src/main/resources/bootstrap-dev.properties
+    BAP_MODULE: $BAP_MODULE_BASE_DATA_SERVICE
+  stage: deploy
+  cache:
+    key: "cache-yaml-npc-$CI_PIPELINE_ID"
+    policy: pull
+    paths:
+      - ./scripts/ci/dev/npc/yml/base-data-service.yaml
+  #  when: manual
+  only:
+    - dev
+  script:
+    - ./scripts/ci/deploy.sh
+deploy-platform-npc:
+  variables:
+    ENV: dev
+    ENV_TYPE: npc
+    BOOTSTRAP_FILE: ./platform/bap-platform/platform-service/src/main/resources/bootstrap-dev.properties
+    BAP_MODULE: $BAP_MODULE_PLATFORM
+  stage: deploy
+  cache:
+    key: "cache-yaml-npc-$CI_PIPELINE_ID"
+    policy: pull
+    paths:
+      - ./scripts/ci/dev/npc/yml/platform-service.yaml
+  #  when: manual
+  only:
+    - dev
+  script:
+    - ./scripts/ci/deploy.sh
+deploy-base-log-npc:
+  variables:
+    ENV: dev
+    ENV_TYPE: npc
+    BOOTSTRAP_FILE: ./base/base-log/base-log-service/src/main/resources/bootstrap-dev.properties
+    BAP_MODULE: $BAP_MODULE_BASE_LOG_SERVICE
+  stage: deploy
+  cache:
+    key: "cache-yaml-npc-$CI_PIPELINE_ID"
+    policy: pull
+    paths:
+      - ./scripts/ci/dev/npc/yml/base-log-service.yaml
+  #  when: manual
+  only:
+    - dev
+  script:
+    - ./scripts/ci/deploy.sh

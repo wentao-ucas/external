@@ -1,0 +1,20 @@
+mojito:
+  local:
+    namespace: caos_test
+    services:
+      - name: uaa-service
+        namespace: caos_test
+        instances:
+          - ip: 127.0.0.1
+            port: 30001
+            weight: 1.0D
+            transport: HTTP
+            serializeType: JSON
+      - name: api-service
+        namespace: caos_test
+        instances:
+          - ip: 127.0.0.1
+            port: 30003
+            weight: 1.0D
+            transport: HTTP
+            serializeType: JSON

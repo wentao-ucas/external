@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source scripts/ci/common.sh
+
+REGISTRY_URL=""
+if [ -z "$CI_COMMIT_TAG" ]; then
+  REGISTRY_URL=$REGISTRY_URL_DEV
+else
+  REGISTRY_URL=$REGISTRY_URL_PROD
+fi
+echo "REGISTRY_URL=${REGISTRY_URL}"
+DOCKER_FILES="${CURRENT_PATH_DOCKERFILES}/Dockerfile-${BAP_MODULE}"
+ls $DOCKER_FILES && cat $DOCKER_FILES
+
+ARTIFACT=$REGISTRY_URL/${PROJECT}-${BAP_MODULE//-/_}:$CAOS_VERSION
+
+docker build -f $DOCKER_FILES -t $ARTIFACT . && docker push $ARTIFACT
+
